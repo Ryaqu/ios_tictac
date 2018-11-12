@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5B2822DF2190C0EA000D18B2 /* minesweeper */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = minesweeper; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2822DF2190C0EA000D18B2 /* tictactoe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tictactoe; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B2822E22190C0EA000D18B2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		5B2822D62190C0EA000D18B2 = {
 			isa = PBXGroup;
 			children = (
-				5B2822E12190C0EA000D18B2 /* minesweeper */,
+				5B2822E12190C0EA000D18B2 /* tictactoe */,
 				5B2822E02190C0EA000D18B2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,25 @@
 		5B2822E02190C0EA000D18B2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5B2822DF2190C0EA000D18B2 /* minesweeper */,
+				5B2822DF2190C0EA000D18B2 /* tictactoe */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5B2822E12190C0EA000D18B2 /* minesweeper */ = {
+		5B2822E12190C0EA000D18B2 /* tictactoe */ = {
 			isa = PBXGroup;
 			children = (
 				5B2822E22190C0EA000D18B2 /* main.swift */,
 			);
-			path = minesweeper;
+			path = tictactoe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5B2822DE2190C0EA000D18B2 /* minesweeper */ = {
+		5B2822DE2190C0EA000D18B2 /* tictactoe */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5B2822E62190C0EA000D18B2 /* Build configuration list for PBXNativeTarget "minesweeper" */;
+			buildConfigurationList = 5B2822E62190C0EA000D18B2 /* Build configuration list for PBXNativeTarget "tictactoe" */;
 			buildPhases = (
 				5B2822DB2190C0EA000D18B2 /* Sources */,
 				5B2822DC2190C0EA000D18B2 /* Frameworks */,
@@ -77,9 +77,9 @@
 			);
 			dependencies = (
 			);
-			name = minesweeper;
+			name = tictactoe;
 			productName = minesweeper;
-			productReference = 5B2822DF2190C0EA000D18B2 /* minesweeper */;
+			productReference = 5B2822DF2190C0EA000D18B2 /* tictactoe */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5B2822DA2190C0EA000D18B2 /* Build configuration list for PBXProject "minesweeper" */;
+			buildConfigurationList = 5B2822DA2190C0EA000D18B2 /* Build configuration list for PBXProject "tictactoe" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5B2822DE2190C0EA000D18B2 /* minesweeper */,
+				5B2822DE2190C0EA000D18B2 /* tictactoe */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5B2822DA2190C0EA000D18B2 /* Build configuration list for PBXProject "minesweeper" */ = {
+		5B2822DA2190C0EA000D18B2 /* Build configuration list for PBXProject "tictactoe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B2822E42190C0EA000D18B2 /* Debug */,
@@ -271,7 +271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B2822E62190C0EA000D18B2 /* Build configuration list for PBXNativeTarget "minesweeper" */ = {
+		5B2822E62190C0EA000D18B2 /* Build configuration list for PBXNativeTarget "tictactoe" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5B2822E72190C0EA000D18B2 /* Debug */,
